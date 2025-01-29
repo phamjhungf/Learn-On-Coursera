@@ -1,0 +1,79 @@
+body {
+    background-color: rgba(37, 41, 41, 0.664);
+}
+
+.p {
+    color: aliceblue;
+    font-size: 26.5px;
+}
+
+h1 {
+    color: rgb(80, 168, 190);
+    font-size: 75px;
+    text-align: center;
+}
+
+article p {
+    color: rgba(255, 0, 0, 0.788);
+    font-size: 100;
+    width: 200;
+}
+
+article>p {
+    color: rgb(55, 0, 255);
+    font-size: 100;
+    width: 200;
+}
+
+li {
+    list-style: none;
+}
+
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
+    /* Remove ___ under link */
+    background-color: aqua;
+    border: 2px solid rgba(0, 0, 0, 0.301);
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+
+a:hover,
+a:active {
+    background-color: rgba(0, 0, 0, 0.123);
+    color: brown;
+}
+
+div section:nth-child(odd) {
+    background-color: aqua;
+    width: 500px;
+    text-align: center;
+
+}
+
+div section:nth-child(4):hover {
+    background-color: blue;
+    cursor: pointer;
+    width: 100px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+nav:hover {
+    background-color: blue;
+    text-align: center;
+    cursor: pointer;
+    width: 100px;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+footer {
+    font-size: large;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
